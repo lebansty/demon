@@ -10,11 +10,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Nav/>}>
-
-      <Route index element={<Card/>}></Route>
-      <Route path='cart' element={<Cart/>}></Route>
-        </Route>
+    <Route path="/" element={<Nav/>}>
+<Route index element={<Card/>}/>
+<Route path="cart" element={<Cart/>}/>
+    </Route>
+    
       </Routes>
       
       </BrowserRouter>
